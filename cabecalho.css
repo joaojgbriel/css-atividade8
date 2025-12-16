@@ -1,28 +1,31 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: #2e4255;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho {
-    background-color: #2D5377;
-    padding: 20px;
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 
-.logo {
-    display: block;
+.campo {
     margin-bottom: 10px;
 }
 
-.menu ul {
-    list-style: none;
+input,
+textarea {
+    width: 500px;
+    height: 30px;
+    box-sizing: border-box;
 }
 
-.menu li {
-    margin-bottom: 5px;
+textarea {
+    height: 300px;
 }
 
-.menu a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 500;
+button {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
