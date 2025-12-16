@@ -2,34 +2,37 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>MusicDot</title>
+    <title>Contato - MusicDot</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="cabecalho.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
 
-<header class="cabecalho">
-    <img src="logo.svg" alt="MusicDot" class="logo">
+<h1>Entre em contato</h1>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="sobre.html#contato">Contato</a></li>
-            <li><a href="#">Entrar</a></li>
-            <li><a href="#">Matricule-se</a></li>
-        </ul>
-    </nav>
-</header>
+<form>
+    <div class="campo">
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" required>
+    </div>
 
-<main>
-    <h1>Conteúdo principal</h1>
-</main>
+    <div class="campo">
+        <label for="fone">Fone</label><br>
+        <input type="tel" id="fone" name="fone" placeholder="(xx) xxxx-xxxx" required>
+    </div>
 
-<footer>
-    <p>Rodapé</p>
-</footer>
+    <div class="campo">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="campo">
+        <label for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" placeholder="Deixe sua opinião" required></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
 
 </body>
 </html>
